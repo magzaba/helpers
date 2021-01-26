@@ -43,7 +43,6 @@ public class StreamFromArrayTest {
                 {Integer.valueOf(2),Integer.valueOf(5)}};
     }
 
-
     @Test(dataProvider = "illegalRange", expectedExceptions = ArrayIndexOutOfBoundsException.class)
     public void shouldThrowWhenIllegalRangeWithArrayOfObjects(int lowerBound, int upperBound) {
         StreamFromArray.createIntStreamOutOfArrayWithinGivenRangeUsingArrays(SAMPLE_STRING_ARRAY, lowerBound, upperBound);
@@ -93,6 +92,4 @@ public class StreamFromArrayTest {
     public void shouldThrowWhenIllegalRangeWithArrayOfDouble(int lowerBound, int upperBound) {
         StreamFromArray.createDoubleStreamOutOfArrayWithinGivenRangeUsingArrays(SAMPLE_DOUBLE_ARRAY, lowerBound, upperBound);
     }
-
-
 }

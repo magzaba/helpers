@@ -10,7 +10,7 @@ import java.util.stream.Stream;
  * Presents different methods of producing a stream out of an array
  * @author Magdalena Żaba
  */
-public class StreamFromArray {
+class StreamFromArray {
 
     /**
      * Creates a stream out of array of objects using Arrays.stream
