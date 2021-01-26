@@ -1,4 +1,4 @@
-package com.epam.prejap.ess.helpers;
+package com.epam.prejap.ess.helpers.streamfromarray;
 
 import java.util.Arrays;
 import java.util.stream.DoubleStream;

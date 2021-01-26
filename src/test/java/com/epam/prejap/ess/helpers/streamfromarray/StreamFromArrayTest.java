@@ -1,4 +1,4 @@
-package com.epam.prejap.ess.helpers;
+package com.epam.prejap.ess.helpers.streamfromarray;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

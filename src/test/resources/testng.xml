@@ -7,7 +7,7 @@
 <suite name="HelpersSuite" time-out="10000" verbose="1">
     <test name="HelpersTests">
         <classes>
-            <class name="com.epam.prejap.ess.helpers.StreamFromArrayTest"/>
+            <class name="com.epam.prejap.ess.helpers.streamfromarray.StreamFromArrayTest"/>
         </classes>
     </test>
 </suite>
