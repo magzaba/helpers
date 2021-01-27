@@ -8,6 +8,10 @@
     <test name="HelpersTests">
         <classes>
             <class name="com.epam.prejap.ess.helpers.streamfromarray.StreamFromArrayTest"/>
+            <class name="com.epam.prejap.ess.helpers.arrays.copy.ArraysCopyTest"/>
+            <class name="com.epam.prejap.ess.helpers.arrays.fillvssetall.CompletingArrayTest"/>
+            <class name="com.epam.prejap.ess.helpers.objectscheckingnull.CheckingNullTest"/>
+            <class name="com.epam.prejap.ess.helpers.objectscompare.TaskObjectsCompareTest"/>
         </classes>
     </test>
 </suite>
